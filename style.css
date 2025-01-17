@@ -1,0 +1,283 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px 20px;
+    background: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.menus{
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height:60px ;
+    /* background: #f1dcdc; */
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+
+    gap: 20px;
+    margin: auto;
+    padding: 0;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.menu li a.active {
+    color: #e91e63;
+}
+
+ button {
+    height: 30px;
+    margin-left: 105px;
+    background: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background: #f9f9f9;
+}
+
+.content h1 {
+    font-size: 2.6em;
+    margin-left: 40px;
+    margin-top: -50px;
+}
+
+.cta {
+    /* background: #e91e63; */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.illustration img {
+    max-width: 100%;
+}
+
+.second-div{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    /* background: #000; */
+}
+.div-contents{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    /* flex-direction:column; */
+    width: 1200px;
+    height: 525px;
+}
+.image-container{
+    overflow: hidden;
+    border-radius: 16px;
+    /* background: #00ee3b; */
+    width: 50%;
+    height: 525px;
+}
+.text-container{
+    color: #000;
+    padding-left: 30px;
+    padding-right: 15px;
+    /* background: #fffb00; */
+    width: 50%;
+    height: 525px;
+}
+
+ .text-img{
+    margin-top: 30px;
+    display: flex;
+
+    width: 567px;
+    height: 85px;
+    /* background: #ffffff; */
+}
+ .cont1{
+width: 50%;
+height: 85px;
+/* background: #ffffff; */
+}
+.cont2{
+    width: 50%;
+height: 85px;
+/* background: #ffffff; */
+}
+.cont1,.cont2{
+    gap: 1px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.cont2 h3{
+   margin-left: 30px;
+}
+
+.readmore{
+    margin-top: 50px;
+    margin-left: 38px;
+    width: 177px;
+    height: 56px;
+    border-radius: 20px;
+    background: #353d56;
+}
+
+.div-third{
+    text-align: center;
+    width: 100%;
+    height:593px ;
+    /* background: #ff0000; */
+}
+
+.div-third h1{
+    padding: 2%;
+}
+.div-third p{
+    margin-top: -50px;
+}
+.twelve{
+    margin: auto;
+    display: flex;
+   margin-top: -80px;
+    width: 1200px;
+    height: 593px;
+}
+
+.contents-image{
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.first-box{
+    width: 300px; 
+    height: 370px;
+    /* background: #0400ff; */
+}
+.first-box img{
+    border-radius: 10px;
+}
+
+.div-fourth{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 564px;
+    background: #fbfbfb;
+    color: #6B6768;
+}
+.cont4{
+    text-align: center;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    height: 468px;
+    /* background: #000; */
+}
+.div-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 55px;
+    font-size: 55px;
+}
+
+.div-imgb{
+    display:flex;
+    justify-content: center;
+    width: 1200px;
+    height: 80px;
+
+}
+.div-imgb img{
+    border-radius: 50%;
+}
+.cont4 p{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#notebook{
+    position:absolute;
+    width: 100px;
+    height: 120px;
+    margin-top: -250px;
+    margin-left: 16px;
+   
+}
+#notebook2{
+    position:absolute;
+    width: 100px;
+    height: 120px;
+    margin-top: -2px;
+    margin-left: 1700px;
+   
+}
+#notebook3{
+    position:absolute;
+    width: 100px;
+    height: 120px;
+    margin-top: 4px;
+    margin-left: 1500px;
+   
+}
+
+#notebook4{
+    position:absolute;
+    width: 100px;
+    height: 120px;
+    margin-top: 500px;
+    margin-left: 150px;
+   
+}
+#notebook5{
+    position:absolute;
+    width: 100px;
+    height: 120px;
+    margin-top: 500px;
+    margin-left: 1500px;
+   
+}
+
